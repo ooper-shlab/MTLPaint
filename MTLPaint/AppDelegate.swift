@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MTLPaint
 //
-//  Created by 開発 on 2019/04/16.
+//  Created by OOPer on 2019/04/16.
 //  Copyright © 2019 OOPer's. All rights reserved.
 //
 

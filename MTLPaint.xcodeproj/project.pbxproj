@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7A0FDCA226D9EE900D53FA1 /* Purple.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A0FDC5226D9EE900D53FA1 /* Purple.png */; };
+		D7A0FDCB226D9EE900D53FA1 /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A0FDC6226D9EE900D53FA1 /* Yellow.png */; };
+		D7A0FDCC226D9EE900D53FA1 /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A0FDC7226D9EE900D53FA1 /* Red.png */; };
+		D7A0FDCD226D9EE900D53FA1 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A0FDC8226D9EE900D53FA1 /* Blue.png */; };
+		D7A0FDCE226D9EE900D53FA1 /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A0FDC9226D9EE900D53FA1 /* Green.png */; };
+		D7A8BA2E226DA27F00C10FCB /* Erase.caf in Resources */ = {isa = PBXBuildFile; fileRef = D7A8BA2C226DA27F00C10FCB /* Erase.caf */; };
+		D7A8BA2F226DA27F00C10FCB /* Select.caf in Resources */ = {isa = PBXBuildFile; fileRef = D7A8BA2D226DA27F00C10FCB /* Select.caf */; };
+		D7A8BA31226DD88000C10FCB /* Recording.data in Resources */ = {isa = PBXBuildFile; fileRef = D7A8BA30226DD88000C10FCB /* Recording.data */; };
+		D7A8BA38226DF2B200C10FCB /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = D7A8BA37226DF2B200C10FCB /* Shaders.metal */; };
+		D7A8BA3A226E06DF00C10FCB /* Particle.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A8BA39226E06DF00C10FCB /* Particle.png */; };
+		D7A8BA3C226E165F00C10FCB /* AAPLMathUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A8BA3B226E165F00C10FCB /* AAPLMathUtilities.swift */; };
 		D7AACE202265BE9B00EB674A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AACE1F2265BE9B00EB674A /* AppDelegate.swift */; };
-		D7AACE222265BE9B00EB674A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AACE212265BE9B00EB674A /* ViewController.swift */; };
+		D7AACE222265BE9B00EB674A /* PaintingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AACE212265BE9B00EB674A /* PaintingViewController.swift */; };
 		D7AACE252265BE9B00EB674A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7AACE232265BE9B00EB674A /* Main.storyboard */; };
 		D7AACE272265BE9C00EB674A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7AACE262265BE9C00EB674A /* Assets.xcassets */; };
 		D7AACE2A2265BE9C00EB674A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7AACE282265BE9C00EB674A /* LaunchScreen.storyboard */; };
+		D7AACE322265BF1400EB674A /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = D7AACE312265BF1400EB674A /* ReadMe.md */; };
+		D7AACE342265C02700EB674A /* SoundEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AACE332265C02700EB674A /* SoundEffect.swift */; };
+		D7AACE372265C08700EB674A /* NumTypes+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AACE362265C08700EB674A /* NumTypes+Conversion.swift */; };
+		D7AACE392265C10100EB674A /* PaintingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AACE382265C10100EB674A /* PaintingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D7A0FDC5226D9EE900D53FA1 /* Purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Purple.png; sourceTree = "<group>"; };
+		D7A0FDC6226D9EE900D53FA1 /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow.png; sourceTree = "<group>"; };
+		D7A0FDC7226D9EE900D53FA1 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
+		D7A0FDC8226D9EE900D53FA1 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		D7A0FDC9226D9EE900D53FA1 /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green.png; sourceTree = "<group>"; };
+		D7A8BA2B226DA1DC00C10FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = MTLPaint/Info.plist; sourceTree = SOURCE_ROOT; };
+		D7A8BA2C226DA27F00C10FCB /* Erase.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Erase.caf; sourceTree = "<group>"; };
+		D7A8BA2D226DA27F00C10FCB /* Select.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Select.caf; sourceTree = "<group>"; };
+		D7A8BA30226DD88000C10FCB /* Recording.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Recording.data; sourceTree = "<group>"; };
+		D7A8BA37226DF2B200C10FCB /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		D7A8BA39226E06DF00C10FCB /* Particle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Particle.png; sourceTree = "<group>"; };
+		D7A8BA3B226E165F00C10FCB /* AAPLMathUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAPLMathUtilities.swift; sourceTree = "<group>"; };
 		D7AACE1C2265BE9B00EB674A /* MTLPaint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTLPaint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7AACE1F2265BE9B00EB674A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D7AACE212265BE9B00EB674A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7AACE212265BE9B00EB674A /* PaintingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingViewController.swift; sourceTree = "<group>"; };
 		D7AACE242265BE9B00EB674A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7AACE262265BE9C00EB674A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7AACE292265BE9C00EB674A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D7AACE2B2265BE9C00EB674A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7AACE312265BF1400EB674A /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
+		D7AACE332265C02700EB674A /* SoundEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundEffect.swift; sourceTree = "<group>"; };
+		D7AACE362265C08700EB674A /* NumTypes+Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NumTypes+Conversion.swift"; sourceTree = "<group>"; };
+		D7AACE382265C10100EB674A /* PaintingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\U0010PaintingView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,10 +65,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D7A0FDC4226D9E9600D53FA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7AACE232265BE9B00EB674A /* Main.storyboard */,
+				D7AACE262265BE9C00EB674A /* Assets.xcassets */,
+				D7AACE282265BE9C00EB674A /* LaunchScreen.storyboard */,
+				D7A8BA2B226DA1DC00C10FCB /* Info.plist */,
+				D7A8BA39226E06DF00C10FCB /* Particle.png */,
+				D7A8BA30226DD88000C10FCB /* Recording.data */,
+				D7A8BA2D226DA27F00C10FCB /* Select.caf */,
+				D7A8BA2C226DA27F00C10FCB /* Erase.caf */,
+				D7A0FDC8226D9EE900D53FA1 /* Blue.png */,
+				D7A0FDC9226D9EE900D53FA1 /* Green.png */,
+				D7A0FDC5226D9EE900D53FA1 /* Purple.png */,
+				D7A0FDC7226D9EE900D53FA1 /* Red.png */,
+				D7A0FDC6226D9EE900D53FA1 /* Yellow.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D7A8BA32226DE97F00C10FCB /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				D7A8BA37226DF2B200C10FCB /* Shaders.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
 		D7AACE132265BE9B00EB674A = {
 			isa = PBXGroup;
 			children = (
+				D7AACE312265BF1400EB674A /* ReadMe.md */,
 				D7AACE1E2265BE9B00EB674A /* MTLPaint */,
+				D7AACE352265C06100EB674A /* OOPUtil */,
+				D7AACE3A2265C1EA00EB674A /* Other Sources */,
+				D7A8BA32226DE97F00C10FCB /* Shaders */,
+				D7A0FDC4226D9E9600D53FA1 /* Resources */,
 				D7AACE1D2265BE9B00EB674A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,13 +118,27 @@
 			isa = PBXGroup;
 			children = (
 				D7AACE1F2265BE9B00EB674A /* AppDelegate.swift */,
-				D7AACE212265BE9B00EB674A /* ViewController.swift */,
-				D7AACE232265BE9B00EB674A /* Main.storyboard */,
-				D7AACE262265BE9C00EB674A /* Assets.xcassets */,
-				D7AACE282265BE9C00EB674A /* LaunchScreen.storyboard */,
-				D7AACE2B2265BE9C00EB674A /* Info.plist */,
+				D7AACE382265C10100EB674A /* PaintingView.swift */,
+				D7AACE212265BE9B00EB674A /* PaintingViewController.swift */,
+				D7AACE332265C02700EB674A /* SoundEffect.swift */,
 			);
 			path = MTLPaint;
+			sourceTree = "<group>";
+		};
+		D7AACE352265C06100EB674A /* OOPUtil */ = {
+			isa = PBXGroup;
+			children = (
+				D7AACE362265C08700EB674A /* NumTypes+Conversion.swift */,
+			);
+			path = OOPUtil;
+			sourceTree = "<group>";
+		};
+		D7AACE3A2265C1EA00EB674A /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D7A8BA3B226E165F00C10FCB /* AAPLMathUtilities.swift */,
+			);
+			path = "\U0010Other Sources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +200,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7AACE2A2265BE9C00EB674A /* LaunchScreen.storyboard in Resources */,
+				D7A0FDCE226D9EE900D53FA1 /* Green.png in Resources */,
+				D7A8BA2F226DA27F00C10FCB /* Select.caf in Resources */,
+				D7A8BA31226DD88000C10FCB /* Recording.data in Resources */,
+				D7A8BA3A226E06DF00C10FCB /* Particle.png in Resources */,
+				D7A0FDCA226D9EE900D53FA1 /* Purple.png in Resources */,
 				D7AACE272265BE9C00EB674A /* Assets.xcassets in Resources */,
+				D7A0FDCD226D9EE900D53FA1 /* Blue.png in Resources */,
+				D7AACE322265BF1400EB674A /* ReadMe.md in Resources */,
 				D7AACE252265BE9B00EB674A /* Main.storyboard in Resources */,
+				D7A8BA2E226DA27F00C10FCB /* Erase.caf in Resources */,
+				D7A0FDCB226D9EE900D53FA1 /* Yellow.png in Resources */,
+				D7A0FDCC226D9EE900D53FA1 /* Red.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +222,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7AACE222265BE9B00EB674A /* ViewController.swift in Sources */,
+				D7A8BA38226DF2B200C10FCB /* Shaders.metal in Sources */,
+				D7AACE222265BE9B00EB674A /* PaintingViewController.swift in Sources */,
 				D7AACE202265BE9B00EB674A /* AppDelegate.swift in Sources */,
+				D7A8BA3C226E165F00C10FCB /* AAPLMathUtilities.swift in Sources */,
+				D7AACE392265C10100EB674A /* PaintingView.swift in Sources */,
+				D7AACE372265C08700EB674A /* NumTypes+Conversion.swift in Sources */,
+				D7AACE342265C02700EB674A /* SoundEffect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +360,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,12 +375,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MTLPaint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.oopers.MTLPaint;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oopers.samplecode.MTLPaint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +393,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MTLPaint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.oopers.MTLPaint;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oopers.samplecode.MTLPaint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
