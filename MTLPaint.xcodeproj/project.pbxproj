@@ -26,7 +26,7 @@
 		D7AACE322265BF1400EB674A /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = D7AACE312265BF1400EB674A /* ReadMe.md */; };
 		D7AACE342265C02700EB674A /* SoundEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AACE332265C02700EB674A /* SoundEffect.swift */; };
 		D7AACE372265C08700EB674A /* NumTypes+Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AACE362265C08700EB674A /* NumTypes+Conversion.swift */; };
-		D7AACE392265C10100EB674A /* PaintingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AACE382265C10100EB674A /* PaintingView.swift */; };
+		D7AACE392265C10100EB674A /* PaintingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AACE382265C10100EB674A /* PaintingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +51,7 @@
 		D7AACE312265BF1400EB674A /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 		D7AACE332265C02700EB674A /* SoundEffect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundEffect.swift; sourceTree = "<group>"; };
 		D7AACE362265C08700EB674A /* NumTypes+Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NumTypes+Conversion.swift"; sourceTree = "<group>"; };
-		D7AACE382265C10100EB674A /* PaintingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\U0010PaintingView.swift"; sourceTree = "<group>"; };
+		D7AACE382265C10100EB674A /* PaintingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				D7AACE1F2265BE9B00EB674A /* AppDelegate.swift */,
-				D7AACE382265C10100EB674A /* PaintingView.swift */,
+				D7AACE382265C10100EB674A /* PaintingView.swift */,
 				D7AACE212265BE9B00EB674A /* PaintingViewController.swift */,
 				D7AACE332265C02700EB674A /* SoundEffect.swift */,
 			);
@@ -226,7 +226,7 @@
 				D7AACE222265BE9B00EB674A /* PaintingViewController.swift in Sources */,
 				D7AACE202265BE9B00EB674A /* AppDelegate.swift in Sources */,
 				D7A8BA3C226E165F00C10FCB /* AAPLMathUtilities.swift in Sources */,
-				D7AACE392265C10100EB674A /* PaintingView.swift in Sources */,
+				D7AACE392265C10100EB674A /* PaintingView.swift in Sources */,
 				D7AACE372265C08700EB674A /* NumTypes+Conversion.swift in Sources */,
 				D7AACE342265C02700EB674A /* SoundEffect.swift in Sources */,
 			);
@@ -375,7 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = D9ACCH3T4Y;
 				INFOPLIST_FILE = MTLPaint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -393,7 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = D9ACCH3T4Y;
 				INFOPLIST_FILE = MTLPaint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
